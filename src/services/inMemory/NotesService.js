@@ -2,7 +2,7 @@ const { nanoid } = require("nanoid");
 const InvariantError = require("../../exceptions/InvariantError");
 const NotFoundError = require("../../exceptions/NotFoundError");
 
-class notesService {
+class NotesService {
   constructor() {
     this._notes = [];
   }
@@ -71,4 +71,4 @@ class notesService {
   }
 }
 
-module.exports = notesService;
+module.exports = NotesService;
